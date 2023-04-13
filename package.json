@@ -15,7 +15,7 @@
   "author": "Jack Williams <jpwilliamsphotography@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "amqplib": "^0.7.0",
+    "amqplib": "^0.8.0",
     "callable-instance": "^2.0.0",
     "callsite": "^1.0.0",
     "cls-hooked": "^4.2.2",
@@ -52,11 +52,12 @@
   },
   "homepage": "https://github.com/jpwilliams/remit#readme",
   "files": [
-    "test",
+    "index.d.ts",
     "lib",
     "utils"
   ],
   "devDependencies": {
+    "@types/amqplib": "^0.10.1",
     "chai": "^4.2.0",
     "coveralls": "^3.0.3",
     "mocha": "^8.0.1",
